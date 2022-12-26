@@ -1,0 +1,61 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-image: url(images/tree.jpg);
+  background-size: cover;
+  color: #fff !important;
+}
+/* Title */
+#header {
+  text-align: center;
+  font-size: 7vw;
+}
+/* Lap */
+#lap {
+  text-align: right;
+  font-size: 4vw;
+}
+/* Time */
+#time {
+  text-align: center;
+  font-size: 10vw;
+}
+/* Buttons */
+#controlsContainer {
+  margin-bottom: 100px;
+}
+.control {
+  margin: 10px;
+  color: #fff;
+  background-color: #d7a04e;
+  height: 10vw;
+  width: 10vw;
+  border-radius: 100%;
+  text-align: center !important;
+  padding: 20% 0;
+  font-size: 2.5vw;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.control:hover {
+  color: #d7a04e;
+  background-color: #fff;
+}
+#laps {
+  max-height: 270px !important;
+  overflow-y: scroll;
+}
+.lap {
+  height: 50px;
+  border-bottom: 1px solid #fff !important;
+  margin: 15px;
+}
+.laptimeTitle {
+  font-size: 1.5em;
+  float: left;
+}
+.laptime {
+  font-size: 2em;
+  float: right;
+}

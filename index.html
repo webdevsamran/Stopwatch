@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap css cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- bootstrap js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <!-- Title -->
+    <div class="container-fluid">
+        <div id="header">Stopwatch</div>
+        <!-- Lap Time -->
+        <div id="lap">
+            <span id="lapminute">00</span>:
+            <span id="lapsecond">00</span>:
+            <span id="lapmilisecond">00</span>
+        </div>
+        <!-- Time -->
+        <div id="time">
+            <span id="timeminute">00</span>:
+            <span id="timesecond">00</span>:
+            <span id="timemilisecond">00</span>
+        </div>
+        <!-- Controls -->
+        <div id="controlsContainer" class="row justify-content-center">
+            <div class="col-xs-2 col-xs-offset-4">
+                <div id="startButton" class="control">
+                    Start
+                </div>
+                <div id="stopButton" class="control">
+                    Stop
+                </div>
+                <div id="resumeButton" class="control">
+                    Resume
+                </div>
+            </div>
+            <div class="col-xs-2">
+                <div id="lapButton" class="control">
+                    Lap
+                </div>
+                <div id="resetButton" class="control">
+                    Reset
+                </div>
+            </div>
+        </div>
+        <!-- Laps -->
+        <div id="laps">
+            
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
